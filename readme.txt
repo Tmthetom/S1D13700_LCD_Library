@@ -1,0 +1,1 @@
+Copy the S1d13700 folder into your Arduino libraries folder.

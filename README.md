@@ -1,2 +1,8 @@
-# S1D13700_LCD_Library
-Arduino LCD library for the Crystalfontz CFAG320240CX display updated 2018
+# Arduino LCD library for the Crystalfontz CFAG320240CX
+
+## How to use
+* SecurityServer (Windows)		: C#
+* SecurityControl (Windows)		: C#
+* SecurityFirmware (Arduino)	: C, C++, Wiring
+* SecurityViewer (Android)		: Java
+* SecurityDashboard (Web)		: JavaScript
