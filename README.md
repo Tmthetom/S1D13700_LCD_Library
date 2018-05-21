@@ -4,5 +4,5 @@
 * http://www.cafelogic.com/download/s1d13700_arduino_documentation/
 
 ## How To Use
-* Example -> Arduino sketch.
-* S1D13700 -> Arduino library. File belongs to Documents\Arduino\libraries.
+* Example -> Arduino sketch
+* S1D13700 -> Arduino library. File belongs to Documents\Arduino\libraries
