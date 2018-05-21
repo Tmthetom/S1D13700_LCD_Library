@@ -5,4 +5,4 @@
 
 ## How To Use
 * Example -> Arduino sketch
-* S1D13700 -> Arduino library. File belongs to Documents\Arduino\libraries
+* S1D13700 -> Arduino library -> file belongs to "Documents\Arduino\libraries"
