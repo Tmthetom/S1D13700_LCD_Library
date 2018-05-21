@@ -4,7 +4,7 @@
 * http://www.cafelogic.com/download/s1d13700_arduino_documentation/
 
 ## How To Use
-* Example -> Arduino sketch when default pins changed to custom
+* Example -> Arduino sketch where default pins changed to custom
 * S1D13700 -> Arduino library -> file belongs to "Documents\Arduino\libraries"
 
 ## Schematic after default pin changed to custom:
