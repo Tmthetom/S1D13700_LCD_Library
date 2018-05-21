@@ -6,3 +6,6 @@
 ## How To Use
 * Example -> Arduino sketch
 * S1D13700 -> Arduino library -> file belongs to "Documents\Arduino\libraries"
+
+## Schematic after default pin changed to custom:
+![](Schematics/schematicAfter.jpg "Schematic after")
