@@ -40,7 +40,7 @@ POSSIBILITY OF SUCH DAMAGE.
   Library by Matt Bommicino
 */
 
-#include "WProgram.h"
+#include "Arduino.h"
 #include "S1D13700.h"
 
 /*Constructor, set pin markers to their default values */
@@ -61,8 +61,8 @@ S1D13700::S1D13700(void)
 		this->pins.rst = 12;
 }
 
-/* This function is specified inline for speed reasons*/
-inline void __attribute__ ((always_inline)) setData(unsigned char data)
+/* Custom pins function */
+void S1D13700::setData(unsigned char data)
 {
 	#ifdef S1D13700_CUSTOM_DATA_PINS
 		pinMode(this->pins.d0, OUTPUT);
@@ -92,7 +92,7 @@ inline void __attribute__ ((always_inline)) setData(unsigned char data)
 
 }
 
-/*The S1D13700 is veyr picky about how things are timed
+/*The S1D13700 is very picky about how things are timed
 	change these two routines at your own risk */
 	
 void S1D13700::writeCommand(unsigned char command)

@@ -42,12 +42,12 @@ POSSIBILITY OF SUCH DAMAGE.
 #ifndef S1D13700_h
 #define S1D13700_h
 
-#include "WProgram.h"
+#include "Arduino.h"
 
 /*uncomment the line below if you need to use non-default pins
 	for your data lines */
 
-//#define S1D13700_CUSTOM_DATA_PINS
+#define S1D13700_CUSTOM_DATA_PINS
 
 #define FIXED_DIR DDRD
 #define FIXED_PORT PORTD
@@ -57,6 +57,7 @@ class S1D13700
 {
   public:
     S1D13700(void);
+	void setData(unsigned char data);
     void writeCommand(unsigned char command);
     void writeData(unsigned char data);
     unsigned char readData(void);
