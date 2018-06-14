@@ -4,8 +4,8 @@
 * http://www.cafelogic.com/download/s1d13700_arduino_documentation/
 
 ## How To Use
-* Example -> Arduino sketch where default pins changed to custom
 * S1D13700 -> Arduino library -> file belongs to "Documents\Arduino\libraries"
+* S1D13700 -> examples -> CommonExample -> Arduino sketch with custom pins
 
 ## Schematic after default pin changed to custom:
 ![](Schematics/schematicAfter.jpg "Schematic after")
